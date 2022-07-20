@@ -1,0 +1,52 @@
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background-color: #5b5757;
+    padding: 20px;
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+    
+}
+
+#missao{
+    font-size: 20px;
+}
+
+em strong{
+    color: #f0e9e9;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.imagembeneficios{
+    width: 50%;
+}
+
+
