@@ -1,52 +1,84 @@
-#banner{
-    width: 100%;
+header{
+    background-color: #bbbb; 
+    padding: 20px 0;
 }
 
-.principal{
-    background-color: #5b5757;
-    padding: 20px;
-}
-.titulo-principal{
-    padding-left: 20px;
+.caixa{
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+ 
 }
 
-.titulo-centralizado{
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;   
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.titulo{
     text-align: center;
-    
+    font-size:55px;
+    font-weight: bold;
+    padding: 20px 0;
 }
 
-p{
-    text-align: center;
-    
+.sobre-barbearia{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 20px 20px;
 }
 
-#missao{
-    font-size: 20px;
-}
-
-em strong{
-    color: #f0e9e9;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.itens{
-    font-style: italic;
-}
-
-.beneficios{
-    background-color: #FFFFFF;
-    padding: 20px;
-}
-
-.imagembeneficios{
+.texto-barbearia{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: justify;
+    margin-right: 20px;
     width: 50%;
 }
 
+.imagem-barbeiro{
+    width: 50%;
+}
 
+.missao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px;
+}
+    
+.paragrafo-missao{
+    font-weight: bold;
+    font-size: 40px;
+    width: 50%;
+}
+
+footer{
+    background: url(bg.jpg);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.copyright{
+    color: white;
+}
